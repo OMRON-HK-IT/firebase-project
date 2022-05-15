@@ -33,7 +33,7 @@ def tabula_scan(left_top_tuple, right_top_tuple, bottom_tuple, page_tuple):
     # print("left top y= %s   bottom top y= %s height=%s" %
     #       (str(left_top_tuple[1]), str(bottom_tuple[1]), str(height)))
     bottom = top+height
-    left = left_top_tuple[0]
+    left = left_top_tuple[0] 
     width = right_top_tuple[0] - left_top_tuple[0] + 90
     # print("left top x= %s   right top x= %s width=%s" %
     #       (str(left_top_tuple[0]), str(right_top_tuple[0]), str(width)))
